@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity=""
+    android:orientation="vertical"
+    tools:context="Activity.deliverActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="ORDER MANAGEMENT"
+        android:textColor="#B80C0C"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#F4EEEE"
+        android:hint="Food Name"
+        android:textColor="#090909" />
+
+
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#F4F0F0"
+        android:hint="Quantity"
+        android:textColor="#090909" />
+
+    <EditText
+        android:id="@+id/edittext_price"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#FAF4F4"
+        android:hint="Price"
+        android:textColor="#090909" />
+
+    <EditText
+        android:id="@+id/edittext_location"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#EFE7E7"
+        android:hint="delivery location"
+        android:textColor="#090909" />
+
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#388E3C"
+        android:text="Add Order"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#0288D1"
+        android:text="View Order"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
